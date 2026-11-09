@@ -172,6 +172,14 @@ streamlit run app.py
 ```
 Open your browser at `http://localhost:8501`.
 
+### 5. Deploy publicly with Streamlit Community Cloud
+1. Push this repository to GitHub.
+2. Sign in at [share.streamlit.io](https://share.streamlit.io/) and connect GitHub.
+3. Create an app using repository `chippadajagadeesh211-max/soil`, branch `main`, and entrypoint `app.py`.
+4. In Advanced settings, select Python 3.12, then deploy. Streamlit Community Cloud will provide the public `*.streamlit.app` URL.
+
+The trained model is committed under `models/`; the app also includes the supplied dataset and its inventory files under `data/`. The pinned requirements match the Python 3.12 environment used to train and smoke-test the saved model.
+
 ---
 
 ## 📁 Repository Directory Structure
